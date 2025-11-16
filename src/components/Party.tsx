@@ -5,6 +5,7 @@ import infinito from '/infinito.jpg';
 const Party: React.FC = () => {
   return (
     <div className='w-[85%] mt-10 shadow-lg rounded-2xl flex flex-col justify-center items-center gap-8 py-12 text-center font-sans text-primary'>
+      <h2 className="font-semibold text-7xl text-center font-dance ">Fiesta</h2>
       <img src={partyGif} alt="partyGif" className='w-[100px]' />
       <p className='text-lg'>
           <strong>Petra</strong><br/>
