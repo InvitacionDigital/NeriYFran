@@ -13,7 +13,7 @@ function Timer() {
               hour = minute * 60,
               day = hour * 24;
 
-        const birthday = "11/30/2025 14:00:00"; // mm/dd/yyyy
+        const birthday = "02/21/2026 20:00:00"; // mm/dd/yyyy
         const countDown = new Date(birthday).getTime();
 
         const x = setInterval(() => {    
@@ -33,7 +33,7 @@ function Timer() {
         }, 1000);
 
     return (
-        <div className= "w-full h-96 relative my-14 flex flex-col justify-center gap-8 font-[poppins] text-primary bg-[url('/circulo.png')] bg-no-repeat bg-contain bg-center">
+        <div className= "w-full h-96 relative my-14 flex flex-col justify-center gap-8 font-pop text-primary bg-[url('/circulo.svg')] bg-no-repeat bg-contain bg-center">
             <h2 className="font-semibold text-6xl text-center font-dance">Faltan</h2>
             <div className="flex justify-evenly gap-2 text-4xl mx-auto relative w-[full] max-w-[522px]">
                 <div className="flex-col items-center flex min-w-12">

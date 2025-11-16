@@ -8,7 +8,7 @@ const Canciones: React.FC = () => {
       <h4 className="font-semibold text-6xl text-center mb-2 font-dance text-primary">Play List</h4>
       <img src={microGif} alt="microGif" className='w-[80px]' />
       <p className='text-lg '>¡Ayudame sugiriendo las canciones que pensás que no pueden faltar en la fiesta!</p>
-      <a href='https://docs.google.com/forms/d/e/1FAIpQLSf4w6PVL-CGfoN9tUTHPu1J4rEgi9ntYfKdIoMMoR2xbkOdXA/viewform?usp=dialog'
+      <a href='https://docs.google.com/forms/d/e/1FAIpQLSeBgM8IILxsP1vzkbKfUjlgfC1nsuURKQ3yWs2ZcLZkbcw1UA/viewform?usp=dialog'
         target='_blank'
         className='mt-6 shadow-lg rounded-full p-4 bg-primary text-white'>AÑADÍ TU TEMA</a>
     </div>

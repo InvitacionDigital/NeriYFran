@@ -1,21 +1,21 @@
 import React from 'react';
 import GoDown from './GoDown';
+import noscasamos from '/noscasamos.png';
 
 const Hero: React.FC = () => {
   return (
-    <div className='bg-[url("/bg.jpeg")] opacity-95 w-full min-w-[300px] max-w-[1000px] aspect-[9/16] bg-contain bg-center bg-no-repeat flex flex-col justify-center py-0 items-center relative '>
-      <div className='flex items-center gap-2'>
-        <span className='border-b border-secondary w-14 h-0'></span>
-        <p className='font-[poppins] text-primary'>30.11.2025</p>
-        <span className='border-b border-secondary w-14 h-0'></span>
+    <div className='bg-[url("/bg.jpg")] opacity-95 w-full min-w-[300px] max-w-[1000px] aspect-[9/16] bg-contain bg-center bg-no-repeat flex flex-col justify-center gap-8 py-0 items-center relative '>
+      <img src={noscasamos} alt="noscasamos" className='w-[250px] mb-[-10px] mx-auto '/>
+      <div className='text-7xl text-center w-fit'>
+        <h1 className='text-primary'>Neri</h1>  
+        <h1 className='-translate-y-4 text-primary'>y</h1>
+        <h1 className='text-primary'>Fran</h1>
       </div>
-      <div className='text-7xl text-center w-[205px] relative my-12'>
-        <h2 className='text-secondary opacity-30 text-[10rem] absolute top-1/2 -translate-y-1/2'>casamiento</h2>
-        <h1 className='z-30 relative font-semibold text-primary'>NeriYFran</h1>
-        <h1 className='text-xl relative '>casamiento</h1>
+      <div className='flex items-center gap-2 text-2xl text-gray-700'>
+        <span className='border-b border-gray-700 w-16 h-0'></span>
+        <p className='font-[poppins] text-gray-600'>21.02.2026</p>
+        <span className='border-b border-gray-700 w-16 h-0'></span>
       </div>
-      <span className='border-b border-secondary w-44 h-0'></span>
-
       <GoDown />
     </div>
   );

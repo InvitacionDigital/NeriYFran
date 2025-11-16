@@ -14,7 +14,6 @@ const DressCode = () => {
       <div>
         <p className="text-lg">Dresscode:</p>
         <p className="text-xl font-bold">Elegante</p>
-        <p className="text-sm mt-4" >Evitar los colores azul y plateado</p>
       </div>
     </div>
   );
