@@ -4,7 +4,11 @@ import Popup from 'reactjs-popup';
 
 const Regalo: React.FC = () => {
   return (
-    <div className='mt-12 w-[85%] shadow-lg rounded-2xl flex flex-col justify-center items-center gap-8 py-12 px-6 text-center font-sans bg-primary text-white'>
+    <div className='mt-12 w-[85%] shadow-lg rounded-2xl flex flex-col justify-center items-center gap-8 py-12 px-6 text-center font-sans bg-primary text-white relative'>
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-4 left-4 w-12 h-12 pointer-events-none border-t-[3px] border-l-[3px] border-golden rounded-tl-2xl"></div>
+        <div className="absolute bottom-4 right-4 w-12 h-12 pointer-events-none border-b-[3px] border-r-[3px] border-golden rounded-br-2xl"></div>
+      </div>
       <img src={regaloGif} alt="anillogif" className='w-[120px]' />
       <p>Lo que más queremos es compartir con ustedes nuestro <strong>gran día</strong> ✨, pero si deseas regalarnos algo puedes hacer clic en el siguiente botón.<br/><strong>¡Muchas gracias!</strong></p>
       <Popup trigger={<button className='mt-4 font-semibold rounded-full p-4 bg-secondary shadow-btn'>VER INFORMACIÓN</button>} modal>
