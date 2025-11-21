@@ -1,5 +1,5 @@
 import React from 'react';
-import regaloGif from '/regaloGif.gif'
+import regaloGif from '/gifs/base/regaloGif.gif'
 import Popup from 'reactjs-popup';
 
 const Regalo: React.FC = () => {
@@ -29,7 +29,7 @@ const Regalo: React.FC = () => {
             <p className="my-2"><small>Nº cuenta: </small>1303052179001</p>
             <p className="my-2"><small>CUIT: </small>20-34399851-2</p>
 
-            <p className="mt-8 mb-4 text-sm text-center">También va haber un cofre en el salón para dejar un sobre con dinero o regalo.</p>
+            <p className="mt-8 mb-4 text-sm text-center">También va haber un cofre en el salón para dejar un sobre con dinero o .</p>
           </div>
         )}
       </Popup>

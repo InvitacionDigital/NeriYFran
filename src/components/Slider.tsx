@@ -1,13 +1,13 @@
 import React from 'react';
 import { Carousel } from 'flowbite-react';
-// import foto3 from '/foto3.jpeg';
-// import foto4 from '/foto4.jpeg';
-// import foto5 from '/foto5.jpeg';
-// import foto6 from '/foto6.jpeg';
-// import foto7 from '/foto7.jpeg';
-// import foto8 from '/foto8.jpeg';
-// import foto9 from '/foto9.jpeg';
-// import foto10 from '/foto10.jpeg';
+// import foto3 from '/fotos/foto3.jpeg';
+// import foto4 from '/fotos/foto4.jpeg';
+// import foto5 from '/fotos/foto5.jpeg';
+// import foto6 from '/fotos/foto6.jpeg';
+// import foto7 from '/fotos/foto7.jpeg';
+// import foto8 from '/fotos/foto8.jpeg';
+// import foto9 from '/fotos/foto9.jpeg';
+// import foto10 from '/fotos/foto10.jpeg';
 
 const Slider = () => {
   return (

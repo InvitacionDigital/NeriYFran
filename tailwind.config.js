@@ -22,6 +22,8 @@ export default {
         'dark-primary': 'rgba(100, 105, 88, 1)', // Versión más oscura de primary, usar para sombras o detalles
         'primary': 'rgba(135, 141, 119, 1)', // Dark, se usa en todo
         'secondary': 'rgba(177, 184, 162, 1)', // Versión más clara, se usa en detalles
+        'golden': '#d4af37', // Dorado, usar en detalles especiales
+        'brown': '#cd966c', // Marrón, usar en textos secundarios
         'white': '#FFFFFF',
       },
     },

@@ -1,5 +1,5 @@
 import React from 'react';
-import churchGIF from '/churchGIF.gif';
+import churchGIF from '/gifs/golden/churchGIF.gif';
 
 const Ceremony: React.FC = () => {
   return (

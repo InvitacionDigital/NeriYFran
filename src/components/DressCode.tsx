@@ -1,7 +1,6 @@
 import React from 'react';
-import queNosPonemos from '/quenosponemos.png';
-import suitGif from '/suitGif.gif';
-import dressGif from '/dressGif.gif';
+import suitGif from '/gifs/golden/suitGif.gif';
+import dressGif from '/gifs/golden/dressGif.gif';
 
 const DressCode = () => {
   return (

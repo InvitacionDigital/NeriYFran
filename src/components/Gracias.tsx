@@ -1,5 +1,5 @@
 import React from 'react';
-import gracias from '/gracias.png'
+import gracias from '/utils/gracias.png'
 
 const Gracias: React.FC = () => {
   return (

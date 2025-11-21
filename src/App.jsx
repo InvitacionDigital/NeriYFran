@@ -10,10 +10,10 @@ import Gracias from "./components/Gracias"
 import Regalo from "./components/Regalo"
 import Footer from "./components/Footer"
 import Music from "./components/Music"
-
-import foto1 from "/foto1.jpeg"
-import foto2 from "/foto2.jpeg"
 import Canciones from "./components/Canciones"
+
+import foto1 from "/fotos/foto1.jpeg"
+import foto2 from "/fotos/foto2.jpeg"
 
 
 function App() {

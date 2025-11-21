@@ -1,5 +1,5 @@
 import React from 'react';
-import fotosGif from '/fotosGif.gif';
+import fotosGif from '/gifs/golden/fotosGif.gif';
 import Slider from './Slider';
 
 const Inolvidable: React.FC = () => {

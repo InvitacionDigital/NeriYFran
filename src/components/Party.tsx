@@ -1,6 +1,6 @@
 import React from 'react';
-import partyGif from '/partyGif.gif';
-import infinito from '/infinito.jpg';
+import partyGif from '/gifs/golden/partyGif.gif';
+import infinito from '/utils/infinitoGolden.jpg';
 
 const Party: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import calendarGIF from '/calendarGIF.gif'
+import calendarGIF from '/gifs/golden/calendarGIF.gif'
 
 const Venis: React.FC = () => {
   return (

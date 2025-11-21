@@ -1,5 +1,5 @@
 import React from 'react';
-import down from '/down.png';
+import down from '/utils/down.png';
 
 const GoDown = () => {
   return (
