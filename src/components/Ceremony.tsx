@@ -10,7 +10,7 @@ const Ceremony: React.FC = () => {
       </div>
       <h2 className="font-semibold text-7xl text-center font-dance ">Ceremonia</h2>
       <img src={churchGIF} alt="churchGIF" className='w-[100px]' />
-      <p className='text-lg'><strong>Parroquia santa Ana</strong><br/>C. Tucumán 853<br/><br/><strong>20:00 hs</strong> </p>
+      <p className='text-lg'><strong>Parroquia Santa Ana</strong><br/>C. Tucumán 853<br/><br/><strong>20:00 hs</strong> </p>
       <a href='https://maps.app.goo.gl/5WpuA5eZaxic6aki6'
         target='_blank'
         className='shadow-lg rounded-full p-4 bg-primary text-white font-semibold'>CÓMO LLEGAR</a>
